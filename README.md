@@ -13,3 +13,4 @@ Kali with i3wm-gaps
 ## Fonts
 - Hack
 - [System San Francisco](https://github.com/supermarin/YosemiteSanFranciscoFont/blob/master/System%20San%20Francisco%20Display%20Regular.ttf)
+- Font Awesome `sudo apt-get install fonts-font-awesome`
