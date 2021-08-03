@@ -1,5 +1,7 @@
 # kali-i3wm
-Kali with i3wm-gaps
+From Kali you can install i3-gaps: `sudo apt install i3-gaps`  
+After that login with i3 environment and install the dependencies before the dotfiles.
+
 ## Screenshots
 ![image](https://user-images.githubusercontent.com/28929503/127973449-2b7fd746-6f71-4e5e-aa91-9f66e2d34a31.png)
 
