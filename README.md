@@ -21,3 +21,11 @@ After that, login with i3 environment and install the dependencies before the do
 - Hack
 - [System San Francisco](https://github.com/supermarin/YosemiteSanFranciscoFont/blob/master/System%20San%20Francisco%20Display%20Regular.ttf)
 - Font Awesome `sudo apt-get install fonts-font-awesome`
+
+## Shortcuts
+Super + Enter = Terminal
+Super + d = Rofi (screenshot 1)
+Super + f = Firefox
+Super + e = Thunar
+Super + 1-7 = Workspaces
+Super + Shift + 1-7 = Move window to workspace number
