@@ -15,7 +15,7 @@ After that, login with i3 environment and install the dependencies before the do
 - polybar (Top bar)
 - rofi (Run apps)
 - kitty (Terminal)
-- Atom (Text editor)
+- VSCode (Text editor)
 - Thunar (File manager)
 - Flameshot (Screenshot)
 
