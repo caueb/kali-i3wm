@@ -3,9 +3,11 @@ From Kali you can install i3-gaps: `sudo apt install i3-gaps`
 After that, login with i3 environment and install the dependencies before the dotfiles.
 
 ## Screenshots
-![image](https://user-images.githubusercontent.com/28929503/129465014-84143153-43c7-41c6-a170-3f8a086c9f0a.png)
+![image](https://user-images.githubusercontent.com/28929503/129824895-72571bdf-ee54-4ff8-af35-4b364e4491c9.png)
+![image](https://user-images.githubusercontent.com/28929503/129824802-2089f424-df64-4ee9-8d1d-2deebdb7e068.png)
+![image](https://user-images.githubusercontent.com/28929503/129825027-8eae538b-0c85-4dc6-916c-1e72b5cdcd26.png)
+![image](https://user-images.githubusercontent.com/28929503/129825201-5c185543-2ad8-495e-8727-842d8416deb5.png)
 
-![image](https://user-images.githubusercontent.com/28929503/129465040-d9a83b10-6503-4fa0-8c4f-2052147d37cd.png)
 
 
 # Dependencies
