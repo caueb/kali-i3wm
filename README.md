@@ -15,7 +15,7 @@ After that, login with i3 environment and install the dependencies before the do
 - polybar (Top bar)
 - rofi (Run apps)
 - kitty (Terminal)
-- VSCode (Text editor)
+- VSCode (Text editor) [HTB Theme](https://github.com/silofy/hackthebox)
 - Thunar (File manager)
 - Flameshot (Screenshot)
 
