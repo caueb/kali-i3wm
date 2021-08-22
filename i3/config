@@ -1,5 +1,5 @@
-# i3 config file (v4)
-# Cbx - 02/08/2021
+# i3 config file (v5)
+# Cbx - 22/08/2021
 # FontAwesome CheatSheet: https://fontawesome.com/v4.7/cheatsheet/
 
 set $mod Mod1
@@ -34,7 +34,7 @@ bindsym F8 exec --no-startup-id brightnessctl set 5%-
 bindsym F9 exec --no-startup-id brightnessctl set +5%
 
 # A more modern dmenu replacement is rofi:
-bindsym $mod+d exec --no-startup-id rofi --experimental-backends --backend glx -show drun -display-drun "Search:"
+bindsym $mod+d exec --no-startup-id rofi --experimental-backends --backend glx -show drun -display-drun ""
 
 # Change window focus
 bindsym $mod+Left focus left
@@ -129,10 +129,10 @@ bindsym $mod+p exec pavucontrol
 bindsym $mod+e exec thunar
 
 # Apps on startup
-exec_always --no-startup-id feh --bg-scale /usr/share/wallpapers/lost.jpg
 exec_always --no-startup-id picom -CGb
 exec_always --no-startup-id bash $HOME/.config/polybar/launch.sh
-exec_always --no-startup-id autotiling
+exec_always --no-startup-id nitrogen --restore
+
 exec --no-startup-id vmware-user
 
 # Eliminate title window
