@@ -1,22 +1,22 @@
 /* RASI Theme */
 * {
-    background:                      #1e2127;
-    bordercolor:                     #8ae234;
-    separatorcolor:                  #1e2127;
-    normal-background:               #1e2127;
+    background:                      #1a2332;
+    bordercolor:                     #c3e88d;
+    separatorcolor:                  #1a2332;
+    normal-background:               #1a2332;
     normal-foreground:               #c0cadf;
-    alternate-normal-foreground:     #1e2127;
-    selected-normal-background:      #1e2127;
-    selected-normal-foreground:      #8ae234;
-    active-background:               #1e2127;
+    alternate-normal-foreground:     #1a2332;
+    selected-normal-background:      #1a2332;
+    selected-normal-foreground:      #c3e88d;
+    active-background:               #1a2332;
     active-foreground:               #61afef;
-    alternate-active-background:     #1e2127;
-    selected-active-background:      #1e2127;
+    alternate-active-background:     #1a2332;
+    selected-active-background:      #1a2332;
     selected-active-foreground:      #61afef;
-    urgent-background:               #1e2127;
+    urgent-background:               #1a2332;
     urgent-foreground:               #61afef;
-    alternate-urgent-background:     #1e2127;
-    selected-urgent-background:      #1e2127;
+    alternate-urgent-background:     #1a2332;
+    selected-urgent-background:      #1a2332;
     selected-urgent-foreground:      #e06c75;
     alternate-normal-foreground:     @normal-foreground;
     alternate-urgent-foreground:     @urgent-foreground;
@@ -26,7 +26,7 @@
 
 * {
     spacing:    10;
-    border-color: #8ae234;
+    border-color: #c3e88d;
     background-color: @normal-background;
 }
 #window {
