@@ -1,5 +1,5 @@
 [General]
-Description=Caue2
+Description=Caue
 Blur=true
 Opacity=0.000
 
@@ -28,11 +28,9 @@ Color=240,113,120
 Color=255,139,146
 
 [Color2]
-#Color=195,232,141
 Color=94,189,171
 
 [Color2Intense]
-#Color=221,255,167
 Color=71,212,185
 
 [Color3]
@@ -42,16 +40,12 @@ Color=255,203,107
 Color=255,229,133
 
 [Color4]
-#Color=130,170,255
 Color=104,140,211
-#kali
-#Color=54,123,240
 
 [Color4Intense]
 Color=104,140,211
 
 [Color5]
-#Color=173,106,234
 Color=193,142,229
 
 [Color5Intense]
