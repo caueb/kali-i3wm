@@ -17,15 +17,14 @@
 ;==========================================================
 
 [colors]
-background = #1a2332
+background = #1E1E2E
 background-alt = #141d2b
 foreground = #a4b1cd
 foreground-alt = #ffffff
 primary = #ffb52a
 secondary = #e60053
-alert = #bd2c40
-#green = #8ae234
-green = #c3e88d
+alert = #F28FAD
+green = #ABE9B3
 
 [bar/kali]
 separator = ""
@@ -104,14 +103,14 @@ label-urgent-padding = 4
 [module/cpu]
 type = internal/cpu
 interval = 2
-format-prefix = "%{F#c3e88d}CPU "
+format-prefix = "%{F#ABE9B3}CPU "
 format-prefix-foreground = ${colors.green}
 label = %{F-}%percentage:2%%
 
 [module/memory]
 type = internal/memory
 interval = 2
-format-prefix = "%{F#c3e88d}RAM "
+format-prefix = "%{F#ABE9B3}RAM "
 format-prefix-foreground = ${colors.foreground-alt}
 ;format-underline = #4bffdc
 label = %{F-} %percentage_used%%
@@ -120,18 +119,18 @@ label = %{F-} %percentage_used%%
 type = internal/network
 interface = eth0
 interval = 5.0
-label-connected = %{F#c3e88d}LAN%{F-} %local_ip%
+label-connected = %{F#ABE9B3}LAN%{F-} %local_ip%
 format-disconnected = <label-disconnected>
-label-disconnected =%{F#e30c05} %{F-} disconnected
+label-disconnected =%{F#F28FAD} %{F-} disconnected
 separator=true
 
 [module/vpn]
 type = internal/network
 interface = tun0
 interval = 5.0
-label-connected = %{F#c3e88d}VPN%{F-} %local_ip%
+label-connected = %{F#ABE9B3}VPN%{F-} %local_ip%
 format-disconnected = <label-disconnected>
-label-disconnected =%{F#f07178}VPN%{F-} Off
+label-disconnected =%{F#F28FAD}VPN%{F-} Off
 separator=true
 
 [module/date]
@@ -142,14 +141,14 @@ date-alt = " %Y-%m-%d
 time = %H:%M
 time-alt = %H:%M:%S
 format-prefix-foreground = ${colors.foreground-alt}
-label = %{F#c3e88d} %{F-}%time%
+label = %{F#ABE9B3} %{F-}%time%
 
 [module/pulseaudio]
 type = internal/pulseaudio
 format-volume = <label-volume>
-label-volume = %{F#c3e88d} %{F-}%percentage%%
+label-volume = %{F#ABE9B3} %{F-}%percentage%%
 label-muted =  Muted
-label-muted-foreground = #f07178
+label-muted-foreground = #F28FAD
 click-right = pavucontrol
 interval = 5
 
@@ -157,14 +156,14 @@ interval = 5
 [module/powermenu]
 type = custom/menu
 format-spacing = 2
-label-open = %{F#f07178}
+label-open = %{F#F28FAD}
 label-open-foreground = ${colors.foreground}
 label-close = Cancel
 label-close-foreground = ${colors.foreground}
 
-menu-0-0 = %{F#ffe585}Reboot
+menu-0-0 = %{F#FAE3B0}Reboot
 menu-0-0-exec = systemctl reboot
-menu-0-1 =  %{F#f07178}Shutdown
+menu-0-1 =  %{F#F28FAD}Shutdown
 menu-0-1-exec = systemctl poweroff
 menu-1-0 = attia
 menu-1-0-exec = menu-open-0
@@ -175,4 +174,3 @@ screenchange-reload = true
 [global/wm]
 margin-top = 5
 margin-bottom = 5
-
