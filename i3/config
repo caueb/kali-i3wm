@@ -1,5 +1,5 @@
-# i3 config file (v6)
-# Cbx - 13/12/2021
+# i3 config file (v2022-1)
+# Caue - 12/02/2022
 # FontAwesome CheatSheet: https://fontawesome.com/v4.7/cheatsheet/
 
 set $mod Mod1
@@ -147,7 +147,7 @@ gaps outer 2
 
 # Change window focused color
 #                       border  backgr. text    indicator child_border
-client.focused          #98be65 #d70a53 #ffffff #c3e88d   #c3e88d
+client.focused          #F2CDCD #d70a53 #ffffff #F2CDCD   #F2CDCD
 client.focused_inactive #a4b1cd #a4b1cd #ffffff #a4b1cd   #a4b1cd
 client.unfocused        #282c34 #a4b1cd #888888 #141d2b   #141d2b
 client.urgent           #3E1A47 #900000 #ffffff #900000   #371f55
