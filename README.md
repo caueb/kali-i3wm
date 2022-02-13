@@ -26,7 +26,9 @@ After that, login with i3 environment and install the dependencies before the do
 ## Shortcuts
 - Super + Enter = Terminal
 - Super + d = Rofi
-- Super + f = Firefox
+- Super + f = Fullscreen
 - Super + e = Thunar
 - Super + 1-7 = Workspaces
 - Super + Shift + 1-7 = Move window to workspace number
+- Super + q = Close window
+- Super + Shift + Space = Floating window
