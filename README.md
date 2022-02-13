@@ -17,6 +17,7 @@ After that, login with i3 environment and install the dependencies before the do
 - VSCode (Text editor) [Catppuccin Theme](https://github.com/catppuccin/vscode)
 - Flameshot (Screenshot) `sudo apt install flameshot`
 - Firefox [Catppuccin Rosewater Theme](https://addons.mozilla.org/en-US/firefox/addon/catppuccin-dark-rosewater/)
+- Nitrogen `sudo apt install nitrogen`
 
 ## Fonts
 - Hack
