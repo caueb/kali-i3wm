@@ -12,6 +12,7 @@ After that, login with i3 environment and install the dependencies before the do
 ## Apps
 - polybar (Top bar) `sudo apt install polybar`
 - rofi (Run apps) `sudo apt install rofi`
+- rofi [Catppuccin theme](https://github.com/catppuccin/rofi)
 - kitty (Terminal) `sudo apt install kitty`
 - VSCode (Text editor) [Catppuccin Theme](https://github.com/catppuccin/vscode)
 - Flameshot (Screenshot) `sudo apt install flameshot`
