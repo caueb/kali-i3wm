@@ -10,18 +10,16 @@ After that, login with i3 environment and install the dependencies before the do
 
 # Dependencies
 ## Apps
-- polybar (Top bar)
-- rofi (Run apps)
-- kitty (Terminal)
+- polybar (Top bar) `sudo apt install polybar`
+- rofi (Run apps) `sudo apt install rofi`
+- kitty (Terminal) `sudo apt install kitty`
 - VSCode (Text editor) [Catppuccin Theme](https://github.com/catppuccin/vscode)
-- Thunar (File manager)
-- Flameshot (Screenshot)
+- Flameshot (Screenshot) `sudo apt install flameshot`
 - Firefox [Catppuccin Rosewater Theme](https://addons.mozilla.org/en-US/firefox/addon/catppuccin-dark-rosewater/)
 
 ## Fonts
 - Hack
-- Font Awesome Solid
-- Font Awesome Brands
+- [Font Awesome Solid](https://github.com/FortAwesome/Font-Awesome/blob/master/webfonts/fa-solid-900.ttf)
 
 ## Shortcuts
 - Super + Enter = Terminal
