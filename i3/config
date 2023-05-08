@@ -34,9 +34,9 @@ bindsym F8 exec --no-startup-id brightnessctl set 5%-
 bindsym F9 exec --no-startup-id brightnessctl set +5%
 
 # Rofi - Run/Open apps
-bindsym $mod+d exec --no-startup-id rofi --experimental-backends --backend glx -show drun -display-drun ""
+bindsym $mod+d exec --no-startup-id sh $HOME/.config/rofi/bin/launcher
 
-# Change window focus
+#Change window focus
 bindsym $mod+Left focus left
 bindsym $mod+Down focus down
 bindsym $mod+Up focus up
@@ -125,7 +125,7 @@ mode "resize" {
 }
 
 # Floating Windows Default Size
-for_window [floating] resize set 1800 1000, move position center
+for_window [floating] resize set 1000 600, move position center
 
 bindsym --release Print exec --no-startup-id /usr/bin/flameshot gui
 bindsym $mod+p exec pavucontrol
