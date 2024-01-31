@@ -17,14 +17,13 @@
 ;==========================================================
 
 [colors]
-background = #1E1E2E
-background-alt = #141d2b
-foreground = #a4b1cd
-foreground-alt = #ffffff
-primary = #ffb52a
-secondary = #e60053
-alert = #F28FAD
-green = #ABE9B3
+background = #0f111a
+background-alt = #373B41
+foreground = #b0b0b0
+primary = #ffffff
+secondary = #8ABEB7
+alert = #A54242
+disabled = #707880
 
 [bar/kali]
 separator = ""
@@ -147,7 +146,7 @@ label = %{F#ABE9B3} %{F-}%time%
 type = internal/pulseaudio
 format-volume = <label-volume>
 label-volume = %{F#ABE9B3} %{F-}%percentage%%
-label-muted =  Muted
+label-muted = "  Muted"
 label-muted-foreground = #F28FAD
 click-right = pavucontrol
 interval = 5
@@ -158,13 +157,15 @@ type = custom/menu
 format-spacing = 2
 label-open = %{F#F28FAD}
 label-open-foreground = ${colors.foreground}
-label-close = Cancel
+label-close = "  [ Cancel ]  "
 label-close-foreground = ${colors.foreground}
 
-menu-0-0 = %{F#FAE3B0}Reboot
+menu-0-0 = "  %{F#FAE3B0}[ Reboot ]  "
 menu-0-0-exec = systemctl reboot
-menu-0-1 =  %{F#F28FAD}Shutdown
+
+menu-0-1 =  "  %{F#F28FAD}[ Shutdown ]  "
 menu-0-1-exec = systemctl poweroff
+
 menu-1-0 = attia
 menu-1-0-exec = menu-open-0
 
